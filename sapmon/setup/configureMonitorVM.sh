@@ -34,7 +34,7 @@ ExecuteCommand "apt-get -y update"
 # Install pip
 ExecuteCommand "apt-get install -y python3-pip"
 # Install PyODBC dependencies
-ExecuteCommand "apt-get install g++ unixodbc-dev"
+ExecuteCommand "apt-get install -y g++ unixodbc-dev"
 # Upgrade pip
 ExecuteCommand "python3 -m pip install -U pip"
 # Install hdbcli
